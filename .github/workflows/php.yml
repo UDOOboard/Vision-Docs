@@ -24,4 +24,7 @@ jobs:
           ${{ runner.os }}-php-
     
     - name: Install Dependences Build and Deploy
+      env: 
+          GH_REF: github.com/UDOOboard/Vision-Docs.git
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: ./deploy.sh
