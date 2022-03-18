@@ -17,9 +17,6 @@ jobs:
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
     
-    - name: Build with Maven
-      run: ./deploy.sh
-
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v2
@@ -28,12 +25,6 @@ jobs:
         key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-php-
-
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress
-
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test
+    
+    - name: Install Dependences Build and Deploy
+      run: ./deploy.sh
