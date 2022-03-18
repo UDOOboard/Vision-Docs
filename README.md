@@ -8,7 +8,7 @@ This repository contains the source code for the documentation hosted at [www.ud
 ## Build the documentation locally
 On PHP7+ install XML and mbstring modules:
 
-    sudo apt install php7.2 composer php7.2-xml php7.2-mbstring
+    sudo apt install php7.4 composer php7.4-xml php7.4-mbstring
     composer install
 
 Then build the documentation with
