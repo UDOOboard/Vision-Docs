@@ -14,11 +14,6 @@ Download the [**User Manual**](https://udoo.org/download/files/UDOO_X86/Doc/UDOO
 Visit the [**Get Started Vision**](https://www.udoo.org/get-started-x86/) section of the UDOO website to find video tutorials of how to start use the UDOO Vision board.
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-This is the documentation for the second revision of the UDOO Vision - <b>UDOO Vision/b> - board with Arduino Leonardo-compatible microcontroller (ATmega32U4).<br>
-If you have the first UDOO Vision revision in your hands, please consult the <a href="https://www.udoo.org/docs-x86"><b>UDOO Vision doc at this page</b></a>. Check how to <a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html"><b>recognize the UDOO Vision revision</b></a>.  
-</p>
-
-<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
 If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux, check the <i>Linux Known issue - Sketch upload</i> section in the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html"><b>Getting Started with Arduino Leonardo</b></a> page.
 </p>
 
