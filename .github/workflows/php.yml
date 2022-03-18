@@ -13,7 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-  
+
+    - name: Setup PHP with PECL extension
+      uses: shivammathur/setup-php@v2
+      with:
+          php-version: '7.4'
+          
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v2
@@ -22,7 +27,6 @@ jobs:
         key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-php-
-        php-version: '7.4'
     
     - name: Install Dependences Build and Deploy
       env: 
