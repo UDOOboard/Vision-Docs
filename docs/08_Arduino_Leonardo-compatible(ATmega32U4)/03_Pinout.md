@@ -1,7 +1,6 @@
 The embedded Arduino Leonardo-compatible input/output (I/O) pins operates at **5V**, with a maximum **40 mA** DC current per pin. They are located on the inner columns of the dual headers.
 
-
-<a href="../img/x86ii_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/x86ii_pinout_arduino.png"></a>_
+**FIXME: add correct image**<!--<a href="../img/x86ii_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/x86ii_pinout_arduino.png"></a>_-->
 
 Make sure to check this image to know where are the corresponding Pins  
 
@@ -29,7 +28,7 @@ There are six analog input pins at 10-bit resolution, providing a range of 1024 
 
 The Leonardo has 12 analog inputs, labeled A0 through A11, and all can also be used as digital i/o. Pins A0-A5 appear in the same locations as on the Uno; inputs A6-A11 are on digital i/o pins 4, 6, 8, 9, 10, and 12 respectively. Each analog input provides 10 bits of resolution (i.e. 1024 different values). By default the analog inputs measure from ground to 5 volts, though it’s possible to change the upper end of their range using the AREF pin and the [analogReference()](https://www.arduino.cc/en/Reference/AnalogReference) function.
 
-There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off
+There is a built-in LED connected to digital pin 13. When the pin is HIGH value, the LED is on, when the pin is LOW, it's off.
 
 Analog output is simulated using pulse width modulation (PWM) on digital pins 3, 5, 6, 8, 10, 11 and 13. For an explanation of PWM, refer to the following [Arduino tutorial](https://www.arduino.cc/en/Tutorial/PWM)
 
@@ -39,10 +38,3 @@ The pins 3 (interrupt 0), 2 (interrupt 1), 0 (interrupt 2), 1 (interrupt 3) and 
 ## Arduino&reg; Shields compatibility
 
 UDOO Vision Arduino Leonardo side is compatible with all the shield supported by the original Arduino Leonardo.
-
-<span class="label label-warning">Heads up!</span>  As you can see from the image on top of the page the *ICSP/SPI* connector proper of the Arduino&trade; Pinout is moved to the bottom side of the UDOO Vision board. If you need to use a shield that communicates through this connector you need to connect the pins accordingly.
-
-## UDOO BRICKs Snap-in
-
-The UDOO Vision features a *BRICKs Snap-in* connector to use [UDOO BRICKs](https://www.udoo.org/udoo-bricks/) sensors connected to the ATmega32U4-based Arduino&trade; Leonardo side of the board.  
-Check the [Bricks snap-in sensors](!/Hardware_\&_Accessories/Bricks_snap_in_sensors) page to know how to use the sensors in Arduino™ programming.
