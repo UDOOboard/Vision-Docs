@@ -1,22 +1,19 @@
-UDOO Vision is a Single Board Computer based on the *N-Series Intel® Pentium® / Celeron® and x5-Series Atom* family of System-on-Chips (SoCs) formerly coded as **Braswell**, a series of Quad Core SoCs with **64-bit instruction set** and very low TDP.
+UDOO Vision is a Single Board Computer built upon a Pico-ITX pocket-size form factor, based on the *Intel&reg; Atom&reg; Apollo lake* family of System-on-Chips (SoCs), a series of Quad Core SoCs with **64-bit instruction set** and very low TDP.
 
 Thanks to the x86_64 instruction set, the **UDOO Vision** supports all the *x86 Linux* distribution for **32-bit**(aka i386, IA-32, x86-32, x86_32) and **64-bit**(aka x64, x86-64, x86_64).
 
 We suggest to always use a **64-bit** OS version.
 
-<span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO Vision ULTRA version would be usable with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (usually less than 4GB unless the OS isn't using [PAE](https://en.wikipedia.org/wiki/Physical_Address_Extension)).
+<span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO Vision X7 version would be usable with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (usually less than 4GB unless the OS isn't using [PAE](https://en.wikipedia.org/wiki/Physical_Address_Extension)).
 
-In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
+In the [Getting Started](**TODO: insert correct link**) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
 
-In order to download the latest updated versions of the Intel&reg; Graphics HD drivers you can download and run the [Intel® Graphics update tool for Linux](!Cookbook_Linux/Intel_Graphics_update_tool).
-
-<span class="label label-warning">Heads up!</span> The processors of the UDOO Vision and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
 
 ### Famous Linux distributions
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
-* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 18.10 Cosmic Cuttlefish** is the latest Ubuntu released version. **Ubuntu 18.04 LTS Bionic Beaver** is the latest Long Term Support version with a support end of life on April 2023.
+* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 22.04 Jammy Jellyfish** is the latest Ubuntu released version, even if it is not officially supported by OpenVINO&trade; Toolkit. To use such framework, download **Ubuntu 20.03 Focal Fossa**.
 
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 
@@ -26,7 +23,7 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 
 * [**Fedora**](http://fedoraproject.org/) is a project with a strong focus on free software — you won’t find an easy way to install proprietary graphics drivers here, although third-party repositories are available. Fedora is bleeding edge and contains the latest versions of software.
 
-* [**CentOS**](http://www.centos.org/) / [**Red Hat Enterprise Linux**](http://www.redhat.com/products/enterprise-linux/) Red Hat Enterprise Linux is a commercial Linux distribution intended for servers and workstations. It’s based on the open-source Fedora project, but is designed to be a stable platform with long-term support. CentOS and Red Hat recently announced they’re collaborating, so CentOS is now part of Red Hat itself.
+* [**CentOS**](http://www.centos.org/) / [**Red Hat Enterprise Linux**](http://www.redhat.com/products/enterprise-linux/) Red Hat Enterprise Linux is a commercial Linux distribution intended for servers and workstations. It’s based on the open-source Fedora project, but is designed to be a stable platform with long-term support.
 
 * [**openSUSE**](http://www.opensuse.org/en/) / [**SUSE Linux Enterprise**](https://www.suse.com/) openSUSE is a community-created Linux distribution sponsored by Novell. Novell purchased SuSE Linux in 2003, and they still create an enterprise Linux project known as SUSE Linux Enterprise. Where Red Hat has the Fedora project that feeds into Red Hat Enterprise Linux, Novell has the openSUSE project that feeds into SUSE Linux Enterprise.
 
@@ -38,13 +35,11 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 
 Others useful distributions:
 
-* [**LibreELEC – Just enough OS for KODI**](https://libreelec.tv/) Kodi is a free and open-source media player software application developed by the XBMC Foundation. LibreELEC (short for Libre Embedded Linux Entertainment Center) is a distro based on Kodi, is a non-profit fork of OpenELEC as an open source just enough OS (JeOS) Linux software appliance distro for Kodi.  
-[**Go to the LibreELEC with CEC and IR support**](!Operating_Systems/LibreELEC_with_CEC_support) page to download a dedicated version of LibreELEC 9.0 with Linux kernel 4.19RC8 and support for UDOO Vision CEC and IR support.
+* [**LibreELEC – Just enough OS for KODI**](https://libreelec.tv/) Kodi is a free and open-source media player software application developed by the XBMC Foundation. LibreELEC (short for Libre Embedded Linux Entertainment Center) is a distro based on Kodi, is a non-profit fork of OpenELEC as an open source just enough OS (JeOS) Linux software appliance distro for Kodi.
 
 * [**Lakka**](http://www.lakka.tv/) is a lightweight Linux distribution that transforms a computer into a full blown game console for retrogaming.
 
-*source [www.howtogeek.com](https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/)*
 
-To help choosing your favorite distro you can also check this [linux.org article](https://www.linux.com/news/best-linux-distros-2016).  
+To help choosing your favorite distro you can also check this [linuxhint.com article](https://linuxhint.com/best-linux-distros-2022/).  
 
 A very updated resource to watch "which is the most used Linux Distro" and to choose one is [Distro Watch](https://distrowatch.com/)

@@ -23,33 +23,32 @@ On a Linux distribution open a terminal and type:
 This command will output informations related to both Ethernet and Wi-Fi status, including respective IP addresses, besides the loopback address.
 
 ```bash
-udooer@udoox86:~$ ip a
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
+udooer@udoovision:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
        valid_lft forever preferred_lft forever
-    inet6 ::1/128 scope host
+    inet6 ::1/128 scope host 
        valid_lft forever preferred_lft forever
-2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
-    link/ether 00:c0:08:8a:9b:e4 brd ff:ff:ff:ff:ff:ff
-    inet 192.168.1.154/24 brd 192.168.1.255 scope global dynamic enp2s0
-       valid_lft 86360sec preferred_lft 86360sec
-    inet6 fe80::9729:431c:c4af:1d63/64 scope link
+2: enp2s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 00:c0:08:9d:8f:87 brd ff:ff:ff:ff:ff:ff
+3: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:c0:08:9d:8f:88 brd ff:ff:ff:ff:ff:ff
+    altname enp3s0
+    inet 192.168.1.217/24 brd 192.168.1.255 scope global dynamic noprefixroute eno1
+       valid_lft 85535sec preferred_lft 85535sec
+    inet6 fe80::1e12:98b8:f21:ca6d/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
-3: wlp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
-    link/ether ac:2b:6e:12:b5:6a brd ff:ff:ff:ff:ff:ff
-    inet 192.168.1.102/24 brd 192.168.1.255 scope global dynamic wlp3s0
-       valid_lft 86396sec preferred_lft 86396sec
-    inet6 fe80::2067:7675:6f56:518/64 scope link tentative dadfailed
-       valid_lft forever preferred_lft forever
-    inet6 fe80::29a4:2ccc:f12c:2e4a/64 scope link tentative dadfailed
-       valid_lft forever preferred_lft forever
-    inet6 fe80::9846:e568:c6d2:ff08/64 scope link tentative dadfailed
+4: wlp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 3c:58:c2:fa:6c:b6 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.104/24 brd 192.168.0.255 scope global dynamic noprefixroute wlp1s0
+       valid_lft 7192sec preferred_lft 7192sec
+    inet6 fe80::571d:74a6:d6c7:ed4b/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 ```
-In this example the Ethernet IP address is `192.168.1.154` and the Wi-Fi IP address is `192.168.1.102`.
+In this example the Ethernet IP address is `192.168.1.217` and the Wi-Fi IP address is `192.168.0.104`.
 
-Alternatively you can also use the command `ifconfig`.
+Alternatively, with older Linux distro, you can also use the command `ifconfig`.
 
   </div>
   <div role="tabpanel" class="tab-pane" id="ip-windows">
@@ -58,7 +57,7 @@ A quick way to find your IP address in Windows is by running the `ipconfig` comm
 
 Using Windows 10 you can right-click the **Start** button. In the Menu appeared click on **Command Prompt**.
 
-<a href="../img/ip_find/win_ipconfig.png"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/win_ipconfig.png" alt="fing-network-scanner" width="540" height="290" /></a>
+**TODO: add windows image**<!--<a href="../img/ip_find/win_ipconfig.png"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/win_ipconfig.png" alt="fing-network-scanner" width="540" height="290" /></a>-->
 
   </div>
  </div>
@@ -75,7 +74,7 @@ $('#ip-examples a').click(function (e) {
 
 Fing is a network scanner app, which will help you to discover every device connected into your network. Simply go to the Android or Ios market, download and launch it. If UDOO Vision is properly connected to the same network your phone is (whether via Wi-Fi or ethernet), you should see it and discover its IP address.
 
-<a href="../img/ip_find/fing.jpg"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/fing.jpg" alt="fing.jpg" width="500" height="193" /></a>
+**TODO: update fing screenshots**<!--<a href="../img/ip_find/fing.jpg"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/fing.jpg" alt="fing.jpg" width="500" height="193" /></a>-->
 
 Link to the stores: [Android Google Play](https://play.google.com/store/apps/details?id=com.overlook.android.fing) and [IOS App Store](https://itunes.apple.com/us/app/fing-network-scanner/id430921107?mt=8)
 

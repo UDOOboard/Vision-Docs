@@ -1,4 +1,4 @@
-You can use UDOO Vision as a Desktop PC, connected up to 3 4K resolution monitor, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
+You can use UDOO Vision as a Desktop PC, connected to 4K or UHD monitors, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
 
 [Virtual Network Computing (VNC)](https://en.wikipedia.org/wiki/Virtual_Network_Computing) is a graphical desktop sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. Basically VNC allows you to use your keyboard and mouse of your PC to interact with the graphical desktop environment of the UDOO Vision from remote.
 

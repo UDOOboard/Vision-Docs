@@ -1,4 +1,4 @@
-You can use UDOO Vision as a Desktop PC, connected up to 3 4K resolution monitor, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
+You can use UDOO Vision as a Desktop PC, connected to 4K or UHD monitors, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
 
 ## Requirements
 A first condition to establish a SSH connection with your UDOO Vision is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
@@ -34,7 +34,7 @@ On `ArchLinux` type the following command:
     # pacman -S openssh
 
 You can change some OpenSSH server configuration in the file `/etc/ssh/sshd_config`.
-make a copy of the original sshd configuration file first.
+Make a copy of the original sshd configuration file first.
 
     sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.backup
     sudo gedit /etc/ssh/sshd_config
@@ -116,7 +116,8 @@ In the first blank space, named *Host Name or IP address*, type the **IP Address
 
 Eventually, a Windows Firewall popup could appear the first time you do this. If this happens, allow PuTTY to bypass the firewall.
 
-When the connection succeeds, a black window will appear. That is the terminal. It will ask you to enter your login credential. Type the name of the user <username>, then press "Enter".
+When the connection succeeds, a black window will appear. That is the terminal.\\
+It will ask you to enter your login credential. Type the name of the user <username>, then press "Enter".
 A new line will appear:
 
     <username>@<IPAddres>'s password:
@@ -127,7 +128,7 @@ Type the password of the username then press "Enter".
 At this point you can use your terminal:
 
 ```bash
-Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-59-generic x86_64)
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.15.0-46-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
  * Management:     https://landscape.canonical.com
@@ -136,8 +137,8 @@ Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-59-generic x86_64)
 90 packages can be updated.
 40 updates are security updates.
 
-Last login: Mon Jan 30 16:48:52 2017
-udooer@UDOOX86RevF:~$
+Last login: Tue Aug 23 11:38:51 2022 from 192.168.1.143
+udooer@udoovision:~$
 
 
 ```
