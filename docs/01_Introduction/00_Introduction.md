@@ -32,12 +32,12 @@ If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux
 ## Lineup
 UDOO Vision retail line up consists of [two models](!Hardware_References/Board_versions).
 
-**TODO: images** <img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
+**TODO: images** <!--<img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >-->
 
 
 ## Technical specifications
 
-**TODO: fix image** <!--<img src="../img/x86ii_ultra_top_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">-->
+<img src="../img/UDOO_VISION_top_rotated.png" alt="UDOO VISION" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
 * **Processor**:
   * CPU Intel&reg; Atom&trade; X7-E3950 up to 2.0 Ghz (X7 version)
@@ -71,10 +71,10 @@ UDOO Vision retail line up consists of [two models](!Hardware_References/Board_v
 * Bi-color Power Status LED
 * Arduino&trade; Leonardo-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
 
-&#42;Available on Pin Header
+&#42;Available on Pin Header\\
 &#42;&#42;Same slot of MicroSD
 
-Visit the [official accessories](!Hardware_&_Accessories/Official_Accessories) sections.
+Visit the [official accessories](!Accessories/Official_Accessories) sections.
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
