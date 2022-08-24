@@ -30,7 +30,7 @@ If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux
 
 
 ## Lineup
-UDOO Vision retail line up consists of [two models](!Hardware_Reference/Board_versions).
+UDOO Vision retail line up consists of [two models](!Hardware_References/Board_versions).
 
 **TODO: images** <img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
 

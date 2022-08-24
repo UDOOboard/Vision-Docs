@@ -1,6 +1,6 @@
 ### eMMC onboard
 
-Depending on the [chosen model](!Hardware_Reference/Board_versions) of UDOO Vision you could have an embedded multi media card memory up to 32GB to install your favorite OS.  
+Depending on the [chosen model](!Hardware_References/Board_versions) of UDOO Vision you could have an embedded multi media card memory up to 32GB to install your favorite OS.  
 
 The eMMC use a **SD 3.0** compliant interface.
 
