@@ -71,7 +71,9 @@ UDOO Vision retail line up consists of [two models](!Hardware_References/Board_v
 * Bi-color Power Status LED
 * Arduino&trade; Leonardo-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
 
-&#42;Available on Pin Header\\
+---
+
+&#42;Available on Pin Header  
 &#42;&#42;Same slot of MicroSD
 
 Visit the [official accessories](!Accessories/Official_Accessories) sections.
