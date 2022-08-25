@@ -1,6 +1,6 @@
 ### eMMC onboard
 
-Depending on the [chosen model](!Hardware_References/Board_versions) of UDOO Vision you could have an embedded multi media card memory up to 32GB to install your favorite OS.  
+Depending on the [chosen model](!Hardware_References/Board_versions) of UDOO VISION you could have an embedded multi media card memory up to 64GB to install your favorite OS.  
 
 The eMMC use a **SD 3.0** compliant interface.
 
@@ -9,27 +9,25 @@ The eMMC use a **SD 3.0** compliant interface.
 
 ### S-ATA
 
-The N-series Intel® Pentium® / Celeron® and x5-Series Atom SoCs embed a SATA Controller, which offers two **SATA III 6.0 Gbps** interfaces.  
-Of these interfaces, one SATA channel is carried out to a standard male S-ATA connector, CN18 (the other SATA channel is available on the M.2 Key B socket).
+Both Apollo Lake E3940 and E39050 processors embed a SATA Controller, which offers up to two **SATA III 6.0 Gbps** interfaces.  
+Of these interfaces, one SATA channel is carried out to a standard male S-ATA connector, CN11 (the other SATA channel is available on the M.2 Key B socket).
 
-A dedicated power connector (*CN21*), can be used to give supply to *2.5"* Hard Disk Drives (or Solid State Drives) connected to the SATA male connector.  
+A dedicated power connector (*CN10*), can be used to give supply to *2.5"* Hard Disk Drives (or Solid State Drives) connected to the SATA male connector.  
 The dedicated power connector is a 4-pin male connector. You can find this cable in the [SATA data and power cables for UDOO Vision](http://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) kit.
 
 <span class="label label-warning">Heads up!</span> To connect a *3.5"* Hard Drive you need to provide SATA +5V+12V combo power supply from an external source.
 
 ### μSD
 
-The SoCs used on UDOO x86 module offer a **SD 3.0** compliant interface, that can be used to implement another mass storages media other than the optional internal eMMC and the two SATA interfaces.
-This SD interface is carried to a standard μSD card slot (*CN17*), soldered on top side of the module, push-push type.
+The SoCs used on UDOO x86 module offer a **SD/MMC 4.0** compliant interface, that can be used as a boot device and/or to implement another mass storages media other than the optional internal eMMC and the two SATA interfaces.
+This SD interface is carried to a standard μSD card slot (*CN13*), soldered on bottom side of the module, push-push type.
 
-<span class="label label-warning">Heads up!</span> Due to a UEFI BIOS bug you couldn't be able to write data on the μSD connected. A bugfix is already released in the latest official UEFI BIOS version (1.02). Make sure to keep updated the firmware of your UDOO Vision using the [UEFI update](!/Advanced_Topics/UEFI_update) procedure.
+### M.2 SATA Slot: Socket 2 Key B type 3042/2260
 
-### M.2 SATA/PCI-e Slot: Socket 2 Key B type 2242/3042/2260
+The mass storage capabilities of the UDOO VISION are completed by an M.2 SSD Slot, which allow plugging **M.2 Socket 2 Key B** Solid State Drives with *SATA* interface.  
 
-The mass storage capabilities of the UDOO x86 are completed by an M.2 SSD Slot, which allow plugging **M.2 Socket 2 Key B** Solid State Drives with *SATA* interface or *PCI-e x2* interface (*PCI-e x1* is also supported).  
+The connector used for the M.2 SATA slot is *CN14*, which is a standard 75 pin M.2 Key B connector.
 
-The connector used for the M.2 SATA/PCI-e slot is *CN20*, which is a standard 75 pin M.2 Key B connector.
+On the UDOO VISION board there is also a Threaded Spacer which allows the placement of M.2 Socket 2 Key B SATA/PCI-e modules in `2260` or `3042` sizes.
 
-On the UDOO x86 board there is also a Threaded Spacer which allows the placement of M.2 Socket 2 Key B SATA/PCI-e modules in `2260` size.
-
-It is possible to place also modules in `2242` and `3042` size, by using a M/F Spacer which allows fixing the M.2 module on the spacer already available on the PCB, deemed for the fixing of the M.2 Wireless module.
+For the additional informations about M.2 connectors, look at the [relative section](Hardware_References/M.2_Connectors).

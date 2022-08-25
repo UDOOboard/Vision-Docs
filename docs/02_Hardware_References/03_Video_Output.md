@@ -1,4 +1,4 @@
-The Graphic controller of the **UDOO Vision** is the integrated **Intel&reg; HD Graphics**.  
+The Graphic controller of the **UDOO Vision** is the integrated **Intel&reg; HD Graphics 500**.  
 Depending of the UDOO Vision version this are the specification:
 
 * Intel&reg; HD Graphics 405 Up to 700 MHz 16 execution units (**ULTRA** version)
@@ -7,44 +7,33 @@ Depending of the UDOO Vision version this are the specification:
 
 ### Decoding/Encoding specification
 
-|             | formats                                                     |
-|-------------|-------------------------------------------------------------|
-| HW decoding | HEVC(H.265), H.264, MPEG2, MVC, VC-1, VP8, WMV9, JPEG/MJPEG |
-| HW encoding | H.264, MVC, JPEG/MPEG                                       |
+|             | formats                                       |
+|-------------|-----------------------------------------------|
+| HW decoding | HEVC(H.265), H.264, AVC, VC-1, VP8, VP9, JPEG |
+| HW encoding | HEVC(H.265), H.264, VP8, AVC, JPEG            |
 
 
 ### Video Output Connectors
 
-The Intel® Braswell family of SoCs offer three Digital Display Interfaces, configurable to work in HDMI/DVI/DP++ modes.  
+The Intel&reg; Atom&reg; Apollo Lake E3900 series of SoCs can support up to three independent 4K Ultra HD displays.
 
-#### HDMI Connector
+On the UDOO VISION board are exposed an **embedded Display Port** connector and a **Multimode Display Port** using a mini DP connector.
 
-On the UDOO x86 board, the Digital Display Interface #0 is used to implement a HDMI interface.
+#### eDP Connector
 
-HDMI featured by the Intel&reg; Braswell processor is the version v1.4b.  
+On the boottom side of UDDO VISION is located the embedded Display Port connector.  
+To use a display connected to this type of port, you need a connector type STARCONN p/n 300E30-0110RA-G3 or equivalent.
 
-Maximum resolution:
-* 3840x2160 @ 30Hz
-* 2560x1600 @ 60Hz
-* 24bpp
+The maximum resolution available is 3840 x 2160 @60Hz.
 
-<span class="label label-warning">Heads up!</span>  Always use HDMI-certified cables for the connection between the board and the HDMI display; a category 2 (High-Speed) cable is recommended for higher resolutions, category 1 cables can be used for 720p resolution.
+#### miniDP++ Connector
 
-You can use this [HDMI to HDMI](http://shop.udoo.org/cable-hdmi-to-hdmi.html) cable to connect to a HDMI display in 4k resolution.
-
-#### MiniDisplay Port ++ Connectors
-
-On the UDOO x86 board, the Digital Display Interfaces #1 and #2 are used to implement a multimode Display Port (DP++) interface, i.e. it can be used to support DP displays directly and, through an external adapter, also HDMI or DVI displays.
+On the UDOO VISION board, the Digital Display Interfaces #0 used to implement a multimode Display Port (DP++) interface,
+i.e. it can be used to support DP displays directly and, through an external adapter, also HDMI or DVI displays.
 
 The configuration of this interface in DP or HDMI/DVI mode is automatic.
 
-DP++ featured by the Intel&reg; Braswell processor is the version v1.1a.  
-
-Maximum resolution:
-* 3840x2160 @ 30Hz
-* 2560x1600 @ 60Hz
-* 24bpp
-
+The maximum available is 2560x1600 @ 60Hz.
 
 You can use this [MiniDP++ to DP](http://shop.udoo.org/cable-minidp-to-dp.html) cable to connect to a DisplayPort display in 4k resolution.  
 You can use this [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.html) cable to connect to an HDMI display in FullHD resolution. To have 4k resolution from mDP to HDMI you need an active adapter.
@@ -53,4 +42,4 @@ You can use this [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.ht
 
 ### UDOO Vision Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the UDOO Vision hardware you can download the [UDOO Vision Hardware and UEFI User Manual](https://udoo.org/download/files/UDOO_X86/Doc/UDOO_X86II_MANUAL.pdf)
+For a complete explanation of the UDOO Vision hardware you can download the [UDOO Vision Hardware and UEFI User Manual](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)
