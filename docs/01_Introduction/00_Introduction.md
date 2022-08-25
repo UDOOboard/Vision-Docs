@@ -30,10 +30,8 @@ If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux
 
 
 ## Lineup
-UDOO Vision retail line up consists of [two models](!Hardware_References/Board_versions).
-
-**TODO: images** <!--<img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >-->
-
+UDOO VISION retail line up consists of two models, **UDOO VISION X5** and **UDOO VISION X7**.  
+Check the [Board Versions](Hardware_References/Board_versions) section to see the differences between the two UDOO VISIONs.
 
 ## Technical specifications
 
