@@ -1,4 +1,4 @@
-# UDOO Vision Documentation
+# UDOO VISION Documentation
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/UDOOboard/Vision-Docs/LICENSE)
 

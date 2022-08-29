@@ -1,15 +1,15 @@
-# UDOO Vision
-**UDOO Vision** is the New PC: the most powerful maker board ever and an Arduino&trade; Leonardo-compatible platform, all embedded on the same board.
+# UDOO VISION
+**UDOO VISION** is the New PC: the most powerful maker board ever and an Arduino&trade; Leonardo-compatible platform, all embedded on the same board.
 
-On UDOO Vision you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; Leonardo world, including all the sketches, libraries and the official Arduino&trade; Leonardo IDE.
+On UDOO VISION you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; Leonardo world, including all the sketches, libraries and the official Arduino&trade; Leonardo IDE.
 
 Thanks to the embedded Intel&reg; HD Graphics 500 GPU, you can use all the OpenVINO&trade; toolkit to build prrojects which leverage the AI powerful.
 
-UDOO Vision embeds two processors:
+UDOO VISION embeds two processors:
 * a Quad Core 64-bit [Apollo Lake family](https://ark.intel.com/compare/96488,96485) 14nm processor, designed for the PC domain (The Intel&reg; Atom&trade; E39XX System-on-Chips (SoCs) comes with 1.6 GHz base frequency and with 64-bit instruction set and very low TDP. This single chip solution includes the memory controller, which gives support for up 32-bit Quad-Channel LPDDR4 2400 MT/s Memory.)
 * the [**Microchip ATmega32U4**](https://www.microchip.com/wwwproducts/en/ATmega32u4) 8-bit AVR microcontroller, the same of *Arduino&reg; Leonardo*.
 
-While the Apollo Lake processor can run all the Windows, Linux, Android Vision 64bit Distros you want to use as desktop PC, the ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
+While the Apollo Lake processor can run all the Windows and Linux 64bit distros you want to use as desktop PC, the ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
 
 Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have more complete explanation of the UDOO Vision hardware.  
 
