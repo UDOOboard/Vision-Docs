@@ -55,9 +55,9 @@ Alternatively, with older Linux distro, you can also use the command `ifconfig`.
 
 A quick way to find your IP address in Windows is by running the `ipconfig` command in a Command Prompt window. You’ll see your IP address in the IPv4 Address row beneath the name of your connection.  
 
-Using Windows 10 you can right-click the **Start** button. In the Menu appeared click on **Command Prompt**.
+Using Windows 10 you can right-click the **Start** button. In the Menu appeared click on **Command Prompt** an invoke the `ipconfig` command.
 
-**TODO: add windows image**<!--<a href="../img/ip_find/win_ipconfig.png"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/win_ipconfig.png" alt="fing-network-scanner" width="540" height="290" /></a>-->
+<a href="../img/ip_find/win_ipconfig.png"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/win_ipconfig.png" alt="windows-ipconfig" width="540" height="290" /></a>-->
 
   </div>
  </div>
@@ -73,8 +73,6 @@ $('#ip-examples a').click(function (e) {
 ## Second method: use the Fing - Network Tools Mobile App
 
 Fing is a network scanner app, which will help you to discover every device connected into your network. Simply go to the Android or Ios market, download and launch it. If UDOO Vision is properly connected to the same network your phone is (whether via Wi-Fi or ethernet), you should see it and discover its IP address.
-
-**TODO: update fing screenshots**<!--<a href="../img/ip_find/fing.jpg"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/fing.jpg" alt="fing.jpg" width="500" height="193" /></a>-->
 
 Link to the stores: [Android Google Play](https://play.google.com/store/apps/details?id=com.overlook.android.fing) and [IOS App Store](https://itunes.apple.com/us/app/fing-network-scanner/id430921107?mt=8)
 

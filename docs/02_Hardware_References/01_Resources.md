@@ -1,8 +1,7 @@
-# **TODO** FIXME
 
 ### UDOO Vision Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the UDOO Vision hardware you can download the [**UDOO Vision* Hardware and UEFI **User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)
+For a complete explanation of the UDOO Vision hardware you can download the [*UDOO Vision* Hardware and UEFI **User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)
 
 ### Schematics
 

@@ -72,10 +72,10 @@ To mount the WiFi/BT Kit is necessary the following fixtures (not included with 
 ache/6561462fb70bf4a24230671d096f589e/s/c/sc41-diss-3_2_1.png" alt="fan_cpu" class="img-responsive pull-right" height="275px" style="margin-right:30px; margin-top:0px; padding-top:0px;">
 ### CPU fan for UDOO Vision heatsink
 
-[Buy it from the shop **TODO FIXME:SECO link**](https://edge.seco.com/it/sc41-diss-3-c-pk.html)</br>
-
 You don’t need a CPU fan for your ordinary activities, but the fan will help you out with complex projects that require a lot of power.  
 The CPU fan is applied on the bottom part of the board. It has 3 pins and you can set up thresholds inside the BIOS to automate it. It’s pretty much plug-and-play.
+
+The fan is provided with the UDOO VISION itself for those that bought the board from Kickstarter, but it will come soon in the [official shop](https://shop.udoo.org/)!
 
 
 </br>

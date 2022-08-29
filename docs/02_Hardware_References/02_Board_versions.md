@@ -1,7 +1,6 @@
 <br/>
 
-**TODO: add correct image**
-<img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/vision_lineup.png" alt="UDOO versions" class="img-responsive" >
 
 <br/>
 

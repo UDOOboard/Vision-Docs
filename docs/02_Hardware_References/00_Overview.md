@@ -1,4 +1,5 @@
 <img src="../img/udoo_vision_components.png" alt="UDOO VISION TOP" class="img-responsive">
+<!-- <img src="../img/udoo_vision_peripherals.png" alt="UDOO VISION PERIPHERALS" class="img-responsive" height=512px> -->
 
 ## BLOCK DIAGRAM
 
