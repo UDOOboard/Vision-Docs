@@ -1,6 +1,6 @@
 The embedded Arduino Leonardo-compatible input/output (I/O) pins operates at **5V**, with a maximum **40 mA** DC current per pin. They are located on the inner columns of the dual headers.
 
-**TODO FIXME: add correct image**<!--<a href="../img/x86ii_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/x86ii_pinout_arduino.png"></a>_-->
+<a href="../img/udoo_vision_arduino_pinout.jpg" target="\_blank"><img style="width:700px; " src="../img/udoo_vision_arduino_pinout.jpg" alt="UDOO VISION Arduino pinout"></a>
 
 Make sure to check this image to know where are the corresponding Pins  
 
@@ -33,8 +33,3 @@ There is a built-in LED connected to digital pin 13. When the pin is HIGH value,
 Analog output is simulated using pulse width modulation (PWM) on digital pins 3, 5, 6, 8, 10, 11 and 13. For an explanation of PWM, refer to the following [Arduino tutorial](https://www.arduino.cc/en/Tutorial/PWM)
 
 The pins 3 (interrupt 0), 2 (interrupt 1), 0 (interrupt 2), 1 (interrupt 3) and 7 (interrupt 4) can be configured to trigger an interrupt on a low value, a rising or falling edge, or a change in value. See the [attachInterrupt()](https://www.arduino.cc/en/Reference/AttachInterrupt) function for details.
-
-
-## Arduino&reg; Shields compatibility
-
-UDOO Vision Arduino Leonardo side is compatible with all the shield supported by the original Arduino Leonardo.

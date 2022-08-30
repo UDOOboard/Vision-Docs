@@ -1,5 +1,5 @@
 
-UDOO Vision embeds a **Microchip ATmega32u4** microcontroller, the same as Arduino&reg; Leonardo, with the same open-source schematic.
+UDOO VISION embeds a **Microchip ATmega32u4** microcontroller, the same as Arduino&reg; Leonardo, with the same open-source schematic.
 
 The main Intel&trade; Atom&reg; processor and the ATmega32u4 microcontroller are connected through an internal USB serial connection, so it’s exactly like having an Arduino® Leonardo connected with a standard PC but all in a small form factor Single Board Computer.
 

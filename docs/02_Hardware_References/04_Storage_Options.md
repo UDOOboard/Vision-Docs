@@ -1,6 +1,6 @@
 ### eMMC onboard
 
-Depending on the [chosen model](!Hardware_References/Board_versions) of UDOO VISION you could have an embedded multi media card memory up to 64GB to install your favorite OS.  
+Depending on the [chosen model](!Hardware_References/Board_versions) of UDOO VISION, your board may be equipped with an eMMC storage memory up to 64GB to install your favorite OS.  
 
 The eMMC use a **SD 3.0** compliant interface.
 
@@ -9,10 +9,10 @@ The eMMC use a **SD 3.0** compliant interface.
 
 ### S-ATA
 
-Both Apollo Lake E3940 and E39050 processors embed a SATA Controller, which offers up to two **SATA III 6.0 Gbps** interfaces.  
+Both Apollo Lake E3940 and E3950 processors embed a SATA Controller, which offers up to two **SATA III 6.0 Gbps** interfaces.  
 Of these interfaces, one SATA channel is carried out to a standard male S-ATA connector, CN11 (the other SATA channel is available on the M.2 Key B socket).
 
-A dedicated power connector (*CN10*), can be used to give supply to *2.5"* Hard Disk Drives (or Solid State Drives) connected to the SATA male connector.  
+A dedicated power connector (*CN10*), can be used to power *2.5"* Hard Disk Drives (or Solid State Drives) connected to the SATA male connector.  
 The dedicated power connector is a 4-pin male connector. You can find this cable in the [SATA data and power cables for UDOO Vision](https://shop.udoo.org/en/catalogsearch/result/?q=+Sata++data+and+power+cables) kit.
 
 <span class="label label-warning">Heads up!</span> To connect a *3.5"* Hard Drive you need to provide SATA +5V+12V combo power supply from an external source.

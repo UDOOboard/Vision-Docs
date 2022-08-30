@@ -13,7 +13,7 @@ In the [Getting Started](**TODO: insert correct link**) section you can find a g
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
-* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 22.04 Jammy Jellyfish** is the latest Ubuntu released version, even if it is not officially supported by OpenVINO&trade; Toolkit. To use such framework, download **Ubuntu 20.03 Focal Fossa**.
+* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 22.04 Jammy Jellyfish** is the latest Ubuntu released version, even if it is not officially supported by OpenVINO&trade; Toolkit. To use such framework, download **Ubuntu 20.04 Focal Fossa**.
 
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 

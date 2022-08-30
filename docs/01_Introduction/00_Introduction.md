@@ -3,7 +3,7 @@
 
 On UDOO VISION you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; Leonardo world, including all the sketches, libraries and the official Arduino&trade; Leonardo IDE.
 
-Thanks to the embedded Intel&reg; HD Graphics 500 GPU, you can use all the OpenVINO&trade; toolkit to build prrojects which leverage the AI powerful.
+Thanks to the embedded Intel&reg; HD Graphics 500 GPU, you can use all the OpenVINO&trade; toolkit to build projects which leverage the power of AI.
 
 UDOO VISION embeds two processors:
 * a Quad Core 64-bit [Apollo Lake family](https://ark.intel.com/compare/96488,96485) 14nm processor, designed for the PC domain (The Intel&reg; Atom&trade; E39XX System-on-Chips (SoCs) comes with 1.6 GHz base frequency and with 64-bit instruction set and very low TDP. This single chip solution includes the memory controller, which gives support for up 32-bit Quad-Channel LPDDR4 2400 MT/s Memory.)
@@ -13,7 +13,7 @@ While the Apollo Lake processor can run all the Windows and Linux 64bit distros 
 
 Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have more complete explanation of the UDOO Vision hardware.  
 
-Visit the [**Get Started Vision**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials of how to start use the UDOO Vision board.
+Visit the [**Get Started Vision**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials to start using your new UDOO Vision board.
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
 If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux, check the <i>Linux Known issue - Sketch upload</i> section in the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html"><b>Getting Started with Arduino Leonardo</b></a> page.

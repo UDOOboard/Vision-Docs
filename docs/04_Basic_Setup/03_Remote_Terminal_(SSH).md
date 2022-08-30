@@ -116,11 +116,11 @@ In the first blank space, named *Host Name or IP address*, type the **IP Address
 
 Eventually, a Windows Firewall popup could appear the first time you do this. If this happens, allow PuTTY to bypass the firewall.
 
-When the connection succeeds, a black window will appear. That is the terminal.\\
+When the connection succeeds, a black window will appear. That is the terminal.  
 It will ask you to enter your login credential. Type the name of the user <username>, then press "Enter".
 A new line will appear:
 
-    <username>@<IPAddres>'s password:
+    <username>@<IPAddress>' password:
 
 Type the password of the username then press "Enter".  
 <span class="label label-warning">Heads up!</span> Do not worry if you don't see what you type in the terminal: it's an expedient to hide your password to eventual onlookers.
