@@ -70,7 +70,7 @@ To mount the WiFi/BT Kit is necessary the following fixtures (not included with 
 
 <img src="https://edge.seco.com/media/catalog/product/c
 ache/6561462fb70bf4a24230671d096f589e/s/c/sc41-diss-3_2_1.png" alt="fan_cpu" class="img-responsive pull-right" height="275px" style="margin-right:30px; margin-top:0px; padding-top:0px;">
-### CPU fan for UDOO Vision heatsink
+### CPU fan for UDOO VISION heatsink
 
 You don’t need a CPU fan for your ordinary activities, but the fan will help you out with complex projects that require a lot of power.  
 The CPU fan is applied on the bottom part of the board. It has 3 pins and you can set up thresholds inside the BIOS to automate it. It’s pretty much plug-and-play.
@@ -86,12 +86,12 @@ The fan is provided with the UDOO VISION itself for those that bought the board 
 ### Cables and Power Supply
 
 * [MiniDP++ to HDMI](https://shop.udoo.org/cable-minidp-to-hdmi.html) -
-The miniDP++ to HDMI Passive Adapter lets you connect the UDOO Vision to a high definition (up to 1080p) monitors and projectors
+The miniDP++ to HDMI Passive Adapter lets you connect the UDOO VISION to a high definition (up to 1080p) monitors and projectors
 * [MiniDP++ to DP](https://shop.udoo.org/cable-minidp-to-dp.html) -
-The 2MT miniDP++ to DP Adapter lets you connect the UDOO Vision to a high definition (up to 4k) monitors and projectors
-* [SATA data and power cables for UDOO Vision](https://shop.udoo.org/en/sata-data-and-power-cables.html) -
-SATA data and power cables for UDOO Vision (CN18 and CN30 connectors)
-* Power Supply EU 12V 3A for UDOO Vision ([EU](https://shop.udoo.org/en/power-supply-12v-3a-eu.html) or [USA](https://shop.udoo.org/en/power-supply-12v-3a-usa.html))
+The 2MT miniDP++ to DP Adapter lets you connect the UDOO VISION to a high definition (up to 4k) monitors and projectors
+* [SATA data and power cables for UDOO VISION](https://shop.udoo.org/en/sata-data-and-power-cables.html) -
+SATA data and power cables for UDOO VISION (CN18 and CN30 connectors)
+* Power Supply EU 12V 3A for UDOO VISION ([EU](https://shop.udoo.org/en/power-supply-12v-3a-eu.html) or [USA](https://shop.udoo.org/en/power-supply-12v-3a-usa.html))
   * OUTPUT: 12V, 3A
   * Jack Dimensions: (Inner diameter) 2.1mm - (Outer diameter) 5.5mm.
 

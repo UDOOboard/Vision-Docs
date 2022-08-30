@@ -1,15 +1,15 @@
-You can use UDOO Vision as a Desktop PC, connected to 4K or UHD monitors, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
+You can use UDOO VISION as a Desktop PC, connected to 4K or UHD monitors, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
 
-[Virtual Network Computing (VNC)](https://en.wikipedia.org/wiki/Virtual_Network_Computing) is a graphical desktop sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. Basically VNC allows you to use your keyboard and mouse of your PC to interact with the graphical desktop environment of the UDOO Vision from remote.
+[Virtual Network Computing (VNC)](https://en.wikipedia.org/wiki/Virtual_Network_Computing) is a graphical desktop sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. Basically VNC allows you to use your keyboard and mouse of your PC to interact with the graphical desktop environment of the UDOO VISION from remote.
 
 ## Requirements
-A first condition to establish a VNC connection with your UDOO Vision is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
-A second condition is to install a `VNC Server` on your UDOO Vision system, and install an `VNC Client` on the PC from which you want to connect to UDOO Vision.
+A first condition to establish a VNC connection with your UDOO VISION is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
+A second condition is to install a `VNC Server` on your UDOO VISION system, and install an `VNC Client` on the PC from which you want to connect to UDOO VISION.
 
 
-## VNC Server (on UDOO Vision)
+## VNC Server (on UDOO VISION)
 
-A VNC server is a program that shares a desktop with other computers over the Internet. Choose the software for the OS you've installed on your UDOO Vision.
+A VNC server is a program that shares a desktop with other computers over the Internet. Choose the software for the OS you've installed on your UDOO VISION.
 
 <div>
  <ul id="vnc-server" class="nav nav-tabs" role="tablist">
@@ -30,7 +30,7 @@ For example you can install one of these through the package manager of your Lin
 
 Some distros comes with a functional preinstalled VNC Server, so you can check if the distro are you using already has a desktop sharing software.
 
-For example [Vino](https://help.ubuntu.com/community/VNC/Servers#vino) is the default VNC server in `Ubuntu` to share your existing UDOO Vision desktop. Follow the instruction in the link to enable the desktop sharing feature.    
+For example [Vino](https://help.ubuntu.com/community/VNC/Servers#vino) is the default VNC server in `Ubuntu` to share your existing UDOO VISION desktop. Follow the instruction in the link to enable the desktop sharing feature.    
 At this page you can find a list of the most common VNC Servers used in Ubuntu: [Ubuntu VNC/Servers](https://help.ubuntu.com/community/VNC/Servers).  
 If you come across an encryption Vino error trying connecting follow this page. [Vnc Vino Ubuntu Security fix](http://tiemensfamily.com/TimOnCS/2014/04/12/vnc-vino-ubuntu-security-fix/)
 
@@ -40,7 +40,7 @@ If you come across an encryption Vino error trying connecting follow this page. 
 
 Windows 10 comes with a Remote Desktop Server already installed.  
 The PC must be running Windows 10 Pro/Education/Enterprise. If you Windows 10 version is the Home you can not access it remotely.  
-You need to turn on the Remote Desktop feature on the UDOO Vision in this way:
+You need to turn on the Remote Desktop feature on the UDOO VISION in this way:
 
 1. Right-Click the **Start** button and go to **System**
 2. In the Left Menu click on **Remote settings**
@@ -63,7 +63,7 @@ $('#vnc-server a').click(function (e) {
 
 ## VNC Client on the remote PC
 
-Now you need to install a VNC Client on the PC from which you want to connect to UDOO Vision.
+Now you need to install a VNC Client on the PC from which you want to connect to UDOO VISION.
 
 <div>
  <ul id="vnc-client" class="nav nav-tabs" role="tablist">
@@ -85,7 +85,7 @@ Choose the one you prefer and install it in the remote PC.
 
 Windows 10 comes with a VNC Client already installed. In the search box of the Windows taskbar, type **Remote Desktop Connection** to find it.
 
-In the **Computer** box you can use the *IP Address* or the *Computer Name* assigned to your UDOO Vision. We suggest to use IP Address.  
+In the **Computer** box you can use the *IP Address* or the *Computer Name* assigned to your UDOO VISION. We suggest to use IP Address.  
 
 There also are lots of valid VNC clients for Windows.  
 
@@ -104,5 +104,5 @@ $('#vnc-client a').click(function (e) {
 
 ## Connection via VNC
 
-Regardless of the system and software you are using all the VNC client will ask you to insert the **IP Address** of the UDOO Vision to connect with it.  
-After the connection is established you will need to insert the credential, **username** and the **password**, of the user configured in the UDOO Vision Operating System.  
+Regardless of the system and software you are using all the VNC client will ask you to insert the **IP Address** of the UDOO VISION to connect with it.  
+After the connection is established you will need to insert the credential, **username** and the **password**, of the user configured in the UDOO VISION Operating System.  

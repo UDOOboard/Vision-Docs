@@ -5,7 +5,7 @@ This Tutorial will help you move your first steps in the command shell environme
 
 First, when a Command Line Interface could be useful for you?
 
-* Remote Connection [via SSH](!Basic_Setup/Remote_Desktop_(VNC)): SSH remote connection allows to interact with UDOO Vision without physical access to it. SSH is available only with command line interface.
+* Remote Connection [via SSH](!Basic_Setup/Remote_Desktop_(VNC)): SSH remote connection allows to interact with UDOO VISION without physical access to it. SSH is available only with command line interface.
 * Using a minimal Linux Distribution without a graphical interface. Some Linux Distribution come without a Graphical User Interface, in order to maximize available resources. Command line interface is your only bet in this scenario
 * Some power-users consider CLI the most convenient way to perform code execution and file-system operations. Even if you are not in this category, you may found out that CLI can be very fast when you get used to it.
 * Showing up with your mates, the longest your CLI strings, the more rep you’ll get.

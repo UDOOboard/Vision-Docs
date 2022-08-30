@@ -12,9 +12,9 @@ It is possible to access to AMI Setup Utility by pressing the escape key (`ESC`)
 
 <span class="label label-warning">Heads up!</span> Since some resolutions or monitors are not managed well by the firmware, if you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display with a 1920x1080 resolution or a different cable.
 
-## UDOO Vision Hardware and UEFI BIOS User Manual
+## UDOO VISION Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO Vision Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)
+For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO VISION Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)
 
 
 ## Restore Factory configuration

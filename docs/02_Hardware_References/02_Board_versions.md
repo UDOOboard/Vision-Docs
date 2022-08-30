@@ -4,7 +4,7 @@
 
 <br/>
 
-The main differences between the two versions of the UDOO Vision are shown in the following table.    
+The main differences between the two versions of the UDOO VISION are shown in the following table.    
 
 
 |              |                    X5                    |                 X7                |

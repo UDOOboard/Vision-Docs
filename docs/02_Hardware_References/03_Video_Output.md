@@ -1,5 +1,5 @@
-The Graphic controller of the **UDOO Vision** is the integrated **Intel&reg; HD Graphics 500**.  
-Depending of the UDOO Vision version this are the specification:
+The Graphic controller of the **UDOO VISION** is the integrated **Intel&reg; HD Graphics 500**.  
+Depending of the UDOO VISION version this are the specification:
 
 * Intel&reg; HD Graphics 405 Up to 700 MHz 16 execution units (**ULTRA** version)
 * Intel&reg; HD Graphics 400 Up to 640 MHz 12 execution units (**ADVANCED PLUS**)
@@ -40,6 +40,6 @@ You can use this [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.ht
 
 
 
-### UDOO Vision Hardware and UEFI BIOS User Manual
+### UDOO VISION Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the UDOO Vision hardware you can download the [UDOO Vision Hardware and UEFI User Manual](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)
+For a complete explanation of the UDOO VISION hardware you can download the [UDOO VISION Hardware and UEFI User Manual](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf)

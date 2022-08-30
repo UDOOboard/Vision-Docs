@@ -1,7 +1,7 @@
 
 # OpenVINO&trade; toolkit
 
-The UDOO Vision board is equipped with an Intel&reg; HD Graphics 500 GPU which is fully supported by the
+The UDOO VISION board is equipped with an Intel&reg; HD Graphics 500 GPU which is fully supported by the
 [OpenVINO&trade; toolkit](https://docs.openvino.ai/latest/index.html), an open-source framework for optimizing and
 deploy AI inference.
 

@@ -1,11 +1,11 @@
 ## Overview
 
-We’ll find out how to discover the IP address associated with your UDOO Vision. The [IP address](https://en.wikipedia.org/wiki/IP_address) is a number that uniquely identifies a device in a network. It will be useful to know which IP your UDOO Vision is assigned to for connecting to it remotely.
+We’ll find out how to discover the IP address associated with your UDOO VISION. The [IP address](https://en.wikipedia.org/wiki/IP_address) is a number that uniquely identifies a device in a network. It will be useful to know which IP your UDOO VISION is assigned to for connecting to it remotely.
 There are various way to find the private IP Address, so let’s get started.
 
 ## First method: Command Line
 
-If your UDOO Vision is connected to a screen, you can simply find the IP Address of the board using the tool exploited by the OS you are using.
+If your UDOO VISION is connected to a screen, you can simply find the IP Address of the board using the tool exploited by the OS you are using.
 
 <div>
  <ul id="ip-examples" class="nav nav-tabs" role="tablist">
@@ -72,11 +72,11 @@ $('#ip-examples a').click(function (e) {
 
 ## Second method: use the Fing - Network Tools Mobile App
 
-Fing is a network scanner app, which will help you to discover every device connected into your network. Simply go to the Android or Ios market, download and launch it. If UDOO Vision is properly connected to the same network your phone is (whether via Wi-Fi or ethernet), you should see it and discover its IP address.
+Fing is a network scanner app, which will help you to discover every device connected into your network. Simply go to the Android or Ios market, download and launch it. If UDOO VISION is properly connected to the same network your phone is (whether via Wi-Fi or ethernet), you should see it and discover its IP address.
 
 Link to the stores: [Android Google Play](https://play.google.com/store/apps/details?id=com.overlook.android.fing) and [IOS App Store](https://itunes.apple.com/us/app/fing-network-scanner/id430921107?mt=8)
 
-You'll find UDOO Vision connected through the GB Ethernet identified as `Seco`.  
+You'll find UDOO VISION connected through the GB Ethernet identified as `Seco`.  
 If the board is connected to the Network through Intel Wi-Fi/BT module you'll find it identified as `Intel`
 
 
@@ -84,6 +84,6 @@ If the board is connected to the Network through Intel Wi-Fi/BT module you'll fi
 
 Just connect to your router’s control panel: open your browser and type the IP address of your router. Usually this is `192.168.1.1` or `192.168.0.1` or `192.168.1.254`.  
 Once you’re prompted with a user and password login box, log in (if you’ve not changed them, there are good chances they would be: `admin` as both user and password).
-Navigate to the devices list, which can be called also status or manteinance, you should see your UDOO Vision with his IP address.
+Navigate to the devices list, which can be called also status or manteinance, you should see your UDOO VISION with his IP address.
 
-Here you are. Now that you know your IP address, you can easily access your UDOO Vision.
+Here you are. Now that you know your IP address, you can easily access your UDOO VISION.

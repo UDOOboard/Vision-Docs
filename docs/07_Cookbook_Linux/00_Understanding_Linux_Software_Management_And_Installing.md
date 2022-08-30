@@ -76,4 +76,4 @@ Once done, close and hit `reload`, which is the same as `apt update`.
 
 When finished, you can start searching and browsing for thousands of different softwares, to install them simply tick the checkbox, select `Mark for installation` and hit `apply`.
 
-You have now at your disposal all the software you need to further expand UDOO Vision capabilities.
+You have now at your disposal all the software you need to further expand UDOO VISION capabilities.

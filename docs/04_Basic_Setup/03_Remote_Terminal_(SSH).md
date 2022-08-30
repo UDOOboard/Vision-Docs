@@ -1,12 +1,12 @@
-You can use UDOO Vision as a Desktop PC, connected to 4K or UHD monitors, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
+You can use UDOO VISION as a Desktop PC, connected to 4K or UHD monitors, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
 
 ## Requirements
-A first condition to establish a SSH connection with your UDOO Vision is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
-A second condition is to install a `SSH Server` on your UDOO Vision system, and install an `SSH Client` on the PC from which you want to connect to UDOO Vision.
+A first condition to establish a SSH connection with your UDOO VISION is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
+A second condition is to install a `SSH Server` on your UDOO VISION system, and install an `SSH Client` on the PC from which you want to connect to UDOO VISION.
 
-## SSH Server on UDOO Vision
+## SSH Server on UDOO VISION
 
-Choose the software for the OS you've installed on your UDOO Vision.
+Choose the software for the OS you've installed on your UDOO VISION.
 
 <div>
  <ul id="ssh-server" class="nav nav-tabs" role="tablist">
@@ -61,7 +61,7 @@ $('#ssh-server a').click(function (e) {
 
 ## SSH Client on the remote PC
 
-On the PC from which you want to connect to UDOO Vision choose the client for the OS you use.
+On the PC from which you want to connect to UDOO VISION choose the client for the OS you use.
 
 <div>
  <ul id="ssh-client" class="nav nav-tabs" role="tablist">
@@ -112,7 +112,7 @@ $('#ssh-client a').click(function (e) {
 ## Connection via SSH
 Once you have completed these steps, open your SSH client. For the sake of this example, we consider you're using PuTTY on Windows.
 Opening PuTTY a window will ask you to specify the destination you want to connect to.  
-In the first blank space, named *Host Name or IP address*, type the **IP Address** of UDOO Vision.
+In the first blank space, named *Host Name or IP address*, type the **IP Address** of UDOO VISION.
 
 Eventually, a Windows Firewall popup could appear the first time you do this. If this happens, allow PuTTY to bypass the firewall.
 

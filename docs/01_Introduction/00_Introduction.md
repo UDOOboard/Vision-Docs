@@ -11,9 +11,9 @@ UDOO VISION embeds two processors:
 
 While the Apollo Lake processor can run all the Windows and Linux 64bit distros you want to use as desktop PC, the ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
 
-Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have more complete explanation of the UDOO Vision hardware.  
+Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have more complete explanation of the UDOO VISION hardware.  
 
-Visit the [**Get Started Vision**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials to start using your new UDOO Vision board.
+Visit the [**Get Started VISION**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials to start using your new UDOO VISION board.
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
 If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux, check the <i>Linux Known issue - Sketch upload</i> section in the <a href="../Arduino_Leonardo-compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html"><b>Getting Started with Arduino Leonardo</b></a> page.
@@ -26,7 +26,7 @@ If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux
 * Never provide more than 5V in input to the GPIOs of the Arduino Leonardo-compatible(Atmel&reg; ATmega32U4).
 * Never keep the board in touch with metal objects or surfaces while it is powered up.
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%, at least 3A).
-* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO Vision board with the risk of damage.
+* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO VISION board with the risk of damage.
 
 
 ## Lineup
