@@ -61,9 +61,26 @@ To mount the WiFi/BT Kit is necessary the following fixtures (not included with 
 
 ## Cases
 
+<img style="width:700px; " src="../img/udoo_vision_metal_case.png" alt="UDOO VISION metal case model" class="img-responsive pull-right" height="275px" style="margin-right:30px; margin-top:0px; padding-top:0px;">
+
 ### Metal Case
 
-**TODO**
+The UDOO VISION, for those who bought the board fro mthe Kickstarter campaign, is sold with a metal case to be placed on the top part of your board.
+You'll need it to protect your board from external damages!
+
+Soon it will also be available on the [official shop](https://shop.udoo.org/), to be able to buy a new board together.
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 
 ## Cables and Others
 
