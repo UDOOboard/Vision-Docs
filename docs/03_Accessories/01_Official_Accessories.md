@@ -24,7 +24,7 @@ To mount the SSD is necessary the following fixtures (not included with the item
 * 1x **0.5mm** Washer
 * 1x **M3 Hex** Bolt
 
-### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5GHz + adhesive antenna
+### M.2 Wi-Fi Intel dual band AC + BT 4.2 5GHz + adhesive antenna
 
 <img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
 
