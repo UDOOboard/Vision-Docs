@@ -27,7 +27,7 @@ sudo apt install software-properties-common apt-utils wget curl cpio lsb-release
 Then actually install the toolkit
 ```bash
 curl https://apt.repos.intel.com/openvino/2021/GPG-PUB-KEY-INTEL-OPENVINO-2021 | sudo apt-key add -
-sudo echo "deb https://apt.repos.intel.com/openvino/2021 all main" | tee /etc/apt/sources.list.d/intel-openvino-2021.list
+echo "deb https://apt.repos.intel.com/openvino/2021 all main" | sudo tee /etc/apt/sources.list.d/intel-openvino-2021.list
 sudo apt update 
 sudo apt install intel-openvino-dev-ubuntu20-2021.4.689
 ```

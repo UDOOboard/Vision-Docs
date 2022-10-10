@@ -80,9 +80,9 @@ You'll find UDOO VISION connected through the GB Ethernet identified as `Seco`.
 If the board is connected to the Network through Intel Wi-Fi/BT module you'll find it identified as `Intel`
 
 
-## Third method: use your Router’s control panel
+## Third method: use your Router control panel
 
-Just connect to your router’s control panel: open your browser and type the IP address of your router. Usually this is `192.168.1.1` or `192.168.0.1` or `192.168.1.254`.  
+Just connect to your router control panel: open your browser and type the IP address of your router. Usually this is `192.168.1.1` or `192.168.0.1` or `192.168.1.254`.  
 Once you’re prompted with a user and password login box, log in (if you’ve not changed them, there are good chances they would be: `admin` as both user and password).
 Navigate to the devices list, which can be called also status or manteinance, you should see your UDOO VISION with his IP address.
 

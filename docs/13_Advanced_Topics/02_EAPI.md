@@ -14,4 +14,4 @@ such as SBCs. Read the full specification [here][https://www.picmg.org/wp-conten
 The EAPI implementation for UDOO VISION can be found [here](https://git.seco.com/software/eapi/eapi/-/tree/master/binary) for both
 Windows and Linux.  
 As you can see [here](https://git.seco.com/software/eapi/eapi/-/wikis/home#seco-implementation), the UDOO VISION doesn't have
-an official version until now but we are working to provide you a stable and tested release.
+an official version by now but we are working to provide you a stable and tested release.

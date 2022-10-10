@@ -12,7 +12,7 @@ The main differences between the two versions of the UDOO VISION are shown in th
 | Processor    | Intel&reg; Atom&reg; X5-E3940 up to 1.8 GHz  | Intel&reg; Atom&reg; X7-E3950 up to 2.0 GHz  |
 | RAM          | 8 GB LPDDR4 quad-channel                     | 4 GB LPDDR4 quad-channel                     |
 | Graphics     | Intel&reg; HD Graphics 500 GPU up to 700 MHz | Intel&reg; HD Graphics 500 GPU up to 700 MHz |
-| Storage eMMC | 64GB eMMC storage                            | 64GB eMMC storage                            |  
+| Storage eMMC | 32GB eMMC storage                            | 64GB eMMC storage                            |  
 
 <br/>
 

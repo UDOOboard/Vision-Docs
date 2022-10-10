@@ -17,13 +17,6 @@ In the [UDOO Shop](https://shop.udoo.org/) you can also find some accessories fo
 
 For more info about this SSD module you can check the [official Transcend page](https://www.transcend-info.com/Products/No-643)
 
-To mount the SSD is necessary the following fixtures (not included with the item):
-
-* 1x **M3x12mm** Flat Head Screw
-* 1x **6mm** Round Spacer
-* 1x **0.5mm** Washer
-* 1x **M3 Hex** Bolt
-
 ### M.2 Wi-Fi Intel dual band AC + BT 4.2 5GHz + adhesive antenna
 
 <img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
@@ -44,14 +37,7 @@ The package includes:
 For more info about this WiFi/BT module you can check the [datasheet from the Intel website](https://www.intel.com/content/www/us/en/wireless-products/dual-band-wireless-ac-3168-brief.html)
 
 
-<span class="label label-warning">Heads up!</span> You need both the antennas to make the module works properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
-
-To mount the WiFi/BT Kit is necessary the following fixtures (not included with the item):
-
-* 1x **M3x8mm** Flat Head Screw
-* 1x **2mm** Round Spacer
-* 1x **0.5mm** Washer
-* 1x **M3** Hex Bolt
+<span class="label label-warning">Heads up!</span> You need both the antennas to make the module works properly. Connect an antenna to the `Main` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux` connector to enhance **Bluetooth** and **BluetoothLE** signal.
 
 
 <br/>
@@ -65,10 +51,10 @@ To mount the WiFi/BT Kit is necessary the following fixtures (not included with 
 
 ### Metal Case
 
-The UDOO VISION, for those who bought the board fro mthe Kickstarter campaign, is sold with a metal case to be placed on the top part of your board.
-You'll need it to protect your board from external damages!
+The UDOO VISION, for those who backed the project from the Kickstarter campaign, is sold with a metal case to be placed on the top part of your board.
+It protects your board from accidental damages and makes it better looking on your desk.
 
-Soon it will also be available on the [official shop](https://shop.udoo.org/), to be able to buy a new board together.
+Soon it will also be available on the [official shop](https://shop.udoo.org/).
 
 
 
