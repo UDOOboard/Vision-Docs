@@ -1,6 +1,6 @@
 The embedded Arduino Leonardo-compatible input/output (I/O) pins operates at **5V**, with a maximum **40 mA** DC current per pin. They are located on the inner columns of the dual headers.
 
-<a href="../img/udoo_vision_arduino_pinout.jpg" target="\_blank"><img style="width:700px; " src="../img/udoo_vision_arduino_pinout.jpg" alt="UDOO VISION Arduino pinout"></a>
+<a href="../img/udoo_vision_arduino_pinout.png" target="\_blank"><img style="width:400px; " src="../img/udoo_vision_arduino_pinout.png" alt="UDOO VISION Arduino pinout"></a>
 
 Make sure to check this image to know where are the corresponding Pins  
 
