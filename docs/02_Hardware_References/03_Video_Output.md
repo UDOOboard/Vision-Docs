@@ -18,7 +18,7 @@ On the UDOO VISION board are exposed an **embedded Display Port** connector and 
 
 #### eDP Connector
 
-On the boottom side of UDDO VISION is located the embedded Display Port connector.  
+On the bottom side of UDDO VISION is located the embedded Display Port connector.  
 To use a display connected to this type of port, you need a connector type STARCONN p/n 300E30-0110RA-G3 or equivalent.
 
 The maximum resolution available is 3840 x 2160 @60Hz.

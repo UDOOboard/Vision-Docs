@@ -4,7 +4,7 @@ Depending on the [chosen model](!Hardware_References/Board_versions) of UDOO VIS
 
 The eMMC use a **SD 3.0** compliant interface.
 
-<span class="label label-warning">Heads up!</span> As a flash-based storage device, excessive drive access, particularly write commands, reduces its useful life. Therefore, it is strongly suggested to NOT create a swap partition on the eMMC device.
+<span class="label label-warning">Heads up!</span> As a flash-based storage device, excessive drive access, particularly write commands, reduces its life. Therefore, it is strongly suggested to NOT create a swap partition on the eMMC device.
 
 
 ### SATA
@@ -24,10 +24,10 @@ This SD interface is carried to a standard μSD card slot (*CN13*), soldered on 
 
 ### M.2 SATA Slot: Socket 2 Key B type 3042/2260
 
-The mass storage capabilities of the UDOO VISION are completed by an M.2 SSD Slot, which allow plugging **M.2 Socket 2 Key B** Solid State Drives with *SATA* interface.  
+The mass storage capabilities of the UDOO VISION are completed by an M.2 SSD Slot, which allows plugging **M.2 Socket 2 Key B** Solid State Drives with *SATA* interface.  
 
 The connector used for the M.2 SATA slot is *CN14*, which is a standard 75 pin M.2 Key B connector.
 
 On the UDOO VISION board there is also a Threaded Spacer which allows the placement of M.2 Socket 2 Key B SATA/PCI-e modules in `2260` or `3042` sizes.
 
-For the additional informations about M.2 connectors, look at the [relative section](Hardware_References/M.2_Connectors).
+For additional informations about M.2 connectors, look at the [relative section](Hardware_References/M.2_Connectors).

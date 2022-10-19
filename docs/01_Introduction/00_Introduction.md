@@ -9,9 +9,9 @@ UDOO VISION embeds two processors:
 * a Quad Core 64-bit [Apollo Lake family](https://ark.intel.com/compare/96488,96485) 14nm processor, designed for the PC domain (The Intel&reg; Atom&trade; E39XX System-on-Chips (SoCs) comes with 1.6 GHz base frequency and with 64-bit instruction set and very low TDP. This single chip solution includes the memory controller, which gives support for up 32-bit Quad-Channel LPDDR4 2400 MT/s Memory.)
 * the [**Microchip ATmega32U4**](https://www.microchip.com/wwwproducts/en/ATmega32u4) 8-bit AVR microcontroller, the same of *Arduino&reg; Leonardo*.
 
-While the Apollo Lake processor can run all the Windows and Linux 64bit distros you want to use as desktop PC, the ATmega32U4 allows easy access to a Arduino&trade; Leonardo environment.
+While the Apollo Lake processor can run all the Windows and Linux 64bit distros you want to use as desktop PC, the ATmega32U4 allows easy access to an Arduino&trade; Leonardo environment.
 
-Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have more complete explanation of the UDOO VISION hardware.  
+Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have a more complete explanation of the UDOO VISION hardware.  
 
 Visit the [**Get Started VISION**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials to start using your new UDOO VISION board.
 
@@ -26,7 +26,7 @@ If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux
 * Never provide more than 5V in input to the GPIOs of the Arduino Leonardo-compatible(Atmel&reg; ATmega32U4).
 * Never keep the board in touch with metal objects or surfaces while it is powered up.
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%, at least 3A).
-* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO VISION board with the risk of damage.
+* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send current back to the UDOO VISION board with the risk of damage.
 
 
 ## Lineup
@@ -91,10 +91,10 @@ There is an (unofficial) UDOO discussion channel on IRC. Using the IRC client of
 use server information: `irc.freenode.net`. Room name is `#udoo`.
 
 ### Social networks
- * [Facebook page](http://www.facebook.com/udooboard)
+ * [Facebook page](https://www.facebook.com/udooboard)
  * [Telegram group](https://t.me/udooint)
- * [YouTube](http://www.youtube.com/channel/UCXv5UyGn5jArK8xOAmuSeHg)
- * [Twitter](http://twitter.com/UDOO_Board)
+ * [YouTube](https://www.youtube.com/channel/UCXv5UyGn5jArK8xOAmuSeHg)
+ * [Twitter](https://twitter.com/UDOO_Board)
  * [Instagram](https://www.instagram.com/udoo_board/)
 
 
