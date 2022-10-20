@@ -1,5 +1,5 @@
 # UDOO VISION
-**UDOO VISION** is the New PC: the most powerful maker board ever and an Arduino&trade; Leonardo-compatible platform, all embedded on the same board.
+**UDOO VISION** is the new PC created to run AI applications!
 
 On UDOO VISION you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; Leonardo world, including all the sketches, libraries and the official Arduino&trade; Leonardo IDE.
 
