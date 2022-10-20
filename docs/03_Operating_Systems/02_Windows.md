@@ -11,7 +11,7 @@ The supported version of Windows are:
 * Microsoft&reg; Windows 10 Enterprise (64-bit)
 * Microsoft&reg; Windows 10 IoT Core (32- /64-bit)
 
-In the [Getting Started section](https://www.udoo.org/get-started-vision/) you can find a guide of how to install Windows, the example is based on Windows® 10 64-bit.
+<!-- FIXME In the [Getting Started section](https://www.udoo.org/get-started-vision/) you can find a guide of how to install Windows, the example is based on Windows® 10 64-bit. -->
 
 <span class="label label-warning">Heads up!</span> If you have issues with the TRRS microphone in Windows® 10 try to install the *Realtek High Definition Audio Codecs* audio drivers from [this page](https://www.realtek.cz/download-ALC283-sound-driver-for-Windows10-64bit.html)
 

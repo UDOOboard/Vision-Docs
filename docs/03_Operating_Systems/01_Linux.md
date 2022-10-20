@@ -6,7 +6,7 @@ We suggest to always use a **64-bit** OS version.
 
 <span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO VISION X7 version would be usable with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (usually less than 4GB unless the OS isn't using [PAE](https://en.wikipedia.org/wiki/Physical_Address_Extension)).
 
-In the [Getting Started](https://www.udoo.org/get-started-vision/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
+<!-- FIXME In the [Getting Started](https://www.udoo.org/get-started-vision/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS. -->
 
 
 ### Famous Linux distributions

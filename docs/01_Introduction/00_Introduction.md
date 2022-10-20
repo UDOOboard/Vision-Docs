@@ -13,7 +13,8 @@ While the Apollo Lake processor can run all the Windows and Linux 64bit distros 
 
 Download the [**User Manual**](https://udoo.org/download/files/UDOO_VISION/Doc/UDOO_VISION_MANUAL.pdf) to have a more complete explanation of the UDOO VISION hardware.  
 
-Visit the [**Get Started VISION**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials to start using your new UDOO VISION board.
+Soon will be published video tutorials on the [UDOO website](https://www.udoo.org), to start using your new UDOO VISION board.
+<!-- FIXME Visit the [**Get Started VISION**](https://www.udoo.org/get-started-vision/) section of the UDOO website to find video tutorials to start using your new UDOO VISION board. -->
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
 If you have any <b>trouble</b> uploading the <b>Arduino sketch</b> running Linux, check the <i>Linux Known issue - Sketch upload</i> section in the <a href="../Arduino_Leonardo_compatible(ATmega32U4)/Getting_Started_with_Arduino_Leonardo.html"><b>Getting Started with Arduino Leonardo</b></a> page.
