@@ -1,7 +1,5 @@
 ## Overview
 
-Visit our Tutorials section to learn more about: [Understanding Linux: Software Management And Installing](https://www.udoo.org/tutorial/understanding-linux-software-management-installing/).
-
 In this tutorial we'll take [Ubuntu](https://www.ubuntu.com/) as example.
 Ubuntu, a linux based operating system, handles software management in a way you may not be used to. It is however, very convenient at the end of the day. Ubuntu features a repository system, which is a software collection stored on several servers, which you can access and install with few commands.
 This ensures that updating and installing software is easy, efficient and safe.
@@ -76,4 +74,4 @@ Once done, close and hit `reload`, which is the same as `apt update`.
 
 When finished, you can start searching and browsing for thousands of different softwares, to install them simply tick the checkbox, select `Mark for installation` and hit `apply`.
 
-You have now at your disposal all the software you need to further expand UDOO Vision capabilities
+You have now at your disposal all the software you need to further expand UDOO VISION capabilities.
